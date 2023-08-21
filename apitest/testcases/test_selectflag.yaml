@@ -1,0 +1,10 @@
+-
+  featrue: weixin
+  story: 获取令牌接口
+  title: 获取令牌
+  request:
+    method: get
+    url: http://www.paipaistreet.com/layuiadmin/json/console/prograss.js?page=1&limit=10
+    headers : null
+    json: null
+  vilidate: 断言

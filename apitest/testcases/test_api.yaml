@@ -1,0 +1,15 @@
+-
+  featrue: weixin
+  story: 获取令牌接口
+  title: 获取令牌
+  request:
+    method: post
+    url: https://console.dosoar.com/apiCore/login
+    headers : null
+    json: {
+            "account": "1",
+            "password": "ffc36eaddb017a276e0c342f86f2fb0c",
+            "http": false
+    }
+  vilidate: 断言
+
