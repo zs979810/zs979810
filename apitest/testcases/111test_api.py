@@ -15,7 +15,7 @@ from common.yaml_util import write_yaml, read_yaml, read_yaml_testcase
 class TestApi:
     @pytest.mark.parametrize("caseinfo",read_yaml_testcase("testcases/test_api.yaml"))
     def test_get_token(self,caseinfo):
-        # write_yaml({"name":"张三"})
+        write_yaml({"name":"张三"})
         print(caseinfo)
         # urls = "https://api.weixin.qq/cig-bin/token"
         # datas = {
